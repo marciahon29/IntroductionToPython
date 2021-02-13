@@ -1,3 +1,4 @@
+
 Hello,
 
 These are my slides and Jupyter-Python codes for a course I taught at Ryerson.
@@ -9,3 +10,21 @@ Additionally, you may find the corresponding videos at: https://www.youtube.com/
 Enjoy!
 
 Marcia Hon
+
+
+Setup (you may need to install other libraries. Please refer to the top of each tutorial)
+ Install python (latest installer, check PATH option) @ https://www.python.org/downloads/windows/
+
+ To install libraries, at command prompt:
+     pip install tensorflow
+     pip install keras
+     pip install jupyterlab
+     pip install xlrd
+     pip install pandas
+     pip install openpyxl
+     pip install xlwt openpyxl xlsxwriter
+     pip install scipy
+     pip install --upgrade ipykernel
+
+ To run jupyter, at command prompt:
+     jupyter-lab
